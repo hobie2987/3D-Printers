@@ -19,7 +19,8 @@ C102 X220 Y220          ; Bed size of 220x220
 ;=====================================================
 ; Bed Leveling Settings
 M420 S0 Z10.00                                  ; Unified Bed Leveling (OFF), 10mm Fade Height
-;C29 L25.00 R195.00 F25.00 B195.00 X5 Y5 T65     ; Set Mesh insets, size of 5x5 and bed at 65°C
+; TODO Get latest M503 results and update Mesh Insets
+C29 L25.00 R195.00 F25.00 B195.00 X5 Y5 T65     ; Set Mesh insets, size of 5x5 and bed at 65°C
 ;=====================================================
 ; Sprite Extruder + CRTouch Settings
 M851 X-31.80 Y-40.50 Z-3.48     ; Sprite Extruder Z-Probe Offset (mm)

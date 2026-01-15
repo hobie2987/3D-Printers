@@ -29,6 +29,12 @@
 |---------------|---------------|---------------|---------|
 | -31.80        | -40.5         | --            | 424.90  |
 
+```
+M851 X-31.80 Y-40.50            ; Sprite Extruder Z-Probe Offset (mm)
+M92 E424.90                     ; Sprite Extruder E-Steps
+M500                            ; Save Settings
+```
+
 ---
 ## CR10
 
@@ -41,7 +47,7 @@
 | NO_CONTROLLER_CUSTOM_WIRING_WARNING |        | Disable custom wiring warning for BTT SKR Mini E3 V3.0 |
 
 ```
-#define SERIAL_PORT 2 //TFT Pins (Serial Port #2) => [RST|RX2|TX2|GND|5V]
+#define SERIAL_PORT 2 // TFT Pins (Serial Port #2) => [RST|RX2|TX2|GND|5V]
 #define BAUDRATE 115200 // Required Baudrate for TFT
 #define NO_CONTROLLER_CUSTOM_WIRING_WARNING // Disable custom wiring warning for BTT SKR Mini E3 V3.0
 ```
